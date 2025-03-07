@@ -1,0 +1,50 @@
+@charset "UFT-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header {
+    
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+nav {
+    background-color: rgb(102, 102, 102);
+    padding: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-right:  30px;
+}
+
+nav:hover {
+
+    text-decoration: underline;
+}
+article {
+    background-color: rgb(255, 225, 225);
+    padding: 10px;
+}
+
+article >aside {
+    background-color: rgb(230, 248, 230);
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
