@@ -92,6 +92,7 @@ header > p {
     padding-right: 15px;
     color: white;
     margin: auto;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px black;
 }
 nav {
