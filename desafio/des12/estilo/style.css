@@ -16,9 +16,13 @@ html, body{
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font1)
+    
+
 }
 header {
-    background-color: black;
+    background-image: url('https://www.alsonews.com.br/wp-content/uploads/2024/02/IMG_2473.jpg');
+    background-attachment: fixed;
+    background-position: center center;
     color: white;
     text-align: center;
 }
@@ -27,22 +31,25 @@ header > h1 {
     text-transform: uppercase;
     font-family: var(--font2);
     font-size: 7vw;
+    
 }
 header >  p {
     padding-bottom: 50PX;
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bolder;
 }
 a:hover{
     text-decoration: underline;
-    color: rgb(180, 180, 144);
+    color: yellow;
 }
 footer {
-    background-color: black;
+    background-image: url('https://www.alsonews.com.br/wp-content/uploads/2024/02/IMG_2473.jpg');
+    background-attachment: fixed;
+    background-position: right center;
     color: white;
     text-align: center;
 
@@ -52,14 +59,17 @@ section.normal{
     color: black;
 }
 section.imagens {
-
+    box-shadow: inset 6px 6px 13px 0px black;
     background-color: rgb(43, 40, 40);
     color: white;
+    background-attachment: fixed;
 }
 section.imagens > p {
     display: inline-block;
     padding: 2vw;
-    background-color: rgba(0, 0, 0, 0.336) ;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow:  2px 2px 0px black;
+    background-size: cover;
 
 }
 
@@ -70,6 +80,21 @@ section{
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 3vw;
+}
+section> p {
+    padding-bottom: 2em;
+}
+section#img01{
+    background-image: url('https://static.vecteezy.com/ti/fotos-gratis/t2/23329714-coracao-arvore-amor-para-natureza-vermelho-panorama-as-por-do-sol-generativo-ai-foto.jpg');
+    background-position: right center;
+    background-size: cover;
+     
+}
+section#img02{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Einbrief.jpg');
+    background-position: center;
+    background-size: cover;
+
 }
     
     
