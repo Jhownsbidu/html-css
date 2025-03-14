@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu2rYQLtuYp--EDgD0lfi-pcNnPmXvK8912w&s" type="image/x-icon">
+    <title>EXercício de Tabela </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        caption{
+            font-size: 1.9em;
+            font-weight: bolder;
+        }
+        caption:hover{
+            background-color: black;
+            color: white;
+            
+        }
+        
+        th, td{
+            border: 1px solid black;
+            padding: 13px;
+        }
+        col.cnome{
+            background-color: greenyellow;
+            
+           
+        }
+        .cgrupo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>EXercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+          
+            <col class="cprof">
+        
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="co1">Nome</th>
+            <th scope="co1">Sexo</th>
+            <th scope="co1">Idade</th>
+            <th scope="co1">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+    
+        </tr>
+        <tr>
+            <td>Carolina</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Porteira</td>
+    
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>17</td>
+            <td>T.I</td>
+    
+        </tr>
+        <tr>
+            <td>Rosbson</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Polícal</td>
+    
+        </tr>
+        <tr >
+            <td>Jonatas</td>
+            <td>M</td>
+            <td>15</td>
+            <td>Estudante</td>
+    
+        </tr>
+        <tr>
+            <td>Emily</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Médica</td>
+    
+        </tr>
+    </table>
+    
+</body>
+</html>
