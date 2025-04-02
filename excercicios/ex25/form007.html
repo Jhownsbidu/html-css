@@ -20,14 +20,26 @@
 
                 <optgroup label="Região Nordeste">
                     <option value="MA">Maranhão</option>
-                    <option value="">Pernanbuco</option>
-                    <option value="">Rio Grande do Sul</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="RN">Rio Grande do Sul</option>
 
                 </optgroup>
             </select>
         </p>
         <p>
-            <label for="iprof"> PRofissão</label>
+            <label for="iprof"> Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilidade</option>
+                <option value="DEV">Desenvolverdor</option>
+                <option value="PROF">Professor</option>
+            
+            </datalist>
+        </p>
+        <p><label for="Imsg">Mensagem:</label><br>
+            <textarea name="msg" id="Imsg" cols="30" rows="10"></textarea>
+
         </p>
 
         <p>
