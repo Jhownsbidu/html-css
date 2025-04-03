@@ -2,7 +2,11 @@
 
 /* Aparelho em pé (portrair)*/ 
 
-
+    
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-image: url(../imagens/cev-portrait.jpg);
     background-position: center bottom;
