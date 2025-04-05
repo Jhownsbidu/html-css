@@ -12,7 +12,9 @@ body{
 header{
     background-image:linear-gradient(to top, white, black) ;
     color: white;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 header h1{
@@ -53,14 +55,27 @@ main{
     width: 90vw;
     background-color: white;
     margin: auto;
-    margin-top: ;
+    margin-top: 3px;
     padding: 10px;
     text-indent: 26px;
     line-height: 30px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 22px;
+    
     box-shadow: -22px 22px 20px  darkgray;
 }
 h2{
     padding-bottom: 20px;
+}
+#burguer{
+    background-color: rgb(15, 15, 15);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    cursor: pointer;
+}
+#burguer:hover{
+    background-color: white;
+    color: black;
+
 }
