@@ -12,6 +12,7 @@ body{
     background-image: linear-gradient(to right, rgb(183, 180, 189), rgb(210, 224, 218));
     font-family: 1em;
     
+    
 }
 
 header{
@@ -19,34 +20,42 @@ header{
     font-size: 17px;
     color: white;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 7px;
     margin-left: 3px;
     margin-bottom: -8px;
     margin-right: 14px;
     border-radius: 3px;
     box-shadow: 1px 1px 10px white;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 header h1{
      color: white;
      padding: 10px;
+     flex: 0 0 250px;
 }
 nav {
-    margin-top: 10px;
-    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 nav a{
     background-color: black;
     color: white;
-    border-radius: 12px;
-    padding: 5px;
-    margin-right: 2px;
-    font-size: 16px;
-    transition-duration: .2s;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 9px;
     text-decoration: none;
+    text-align: center;
+    transition-duration: .2s;
 }
 nav a:hover{
     color: black;
     background-color: white;
+    transition-duration: .2s;
 
 }
 main{
